@@ -199,6 +199,7 @@ struct conv_struct {
 #include "cp874.h"
 #include "viscii.h"
 #include "tcvn.h"
+#include "ibm1149.h"
 
 /* CJK character sets [CCS = coded character set] [CJKV.INF chapter 3] */
 

@@ -540,6 +540,16 @@ DEFALIAS(     "IBM-1131",               /* AIX */
             cp1131)
 #endif
 
+/* EBCDIC encodings */
+
+DEFENCODING(( "IBM1049",                /* IANA, glibc */
+              "IBM1049-1997",           /* IANA */
+              "IBM-1049",               /* IANA */
+              "IBM_1049",               /* IANA */
+            ),
+            ibm1049,
+            { ibm1049_mbtowc, NULL },     { ibm1049_wctomb, NULL })
+
 /* Macintosh 8-bit encodings */
 
 DEFENCODING(( "MacRoman",               /* JDK 1.1 */
