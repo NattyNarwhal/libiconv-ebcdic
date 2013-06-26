@@ -542,13 +542,13 @@ DEFALIAS(     "IBM-1131",               /* AIX */
 
 /* EBCDIC encodings */
 
-DEFENCODING(( "IBM1049",                /* IANA, glibc */
-              "IBM1049-1997",           /* IANA */
-              "IBM-1049",               /* IANA */
-              "IBM_1049",               /* IANA */
+DEFENCODING(( "IBM1149",                /* IANA, glibc */
+              "IBM1149-1997",           /* IANA */
+              "IBM-1149",               /* IANA */
+              "IBM_1149",               /* IANA */
             ),
-            ibm1049,
-            { ibm1049_mbtowc, NULL },     { ibm1049_wctomb, NULL })
+            ibm1149,
+            { ibm1149_mbtowc, NULL },     { ibm1149_wctomb, NULL })
 
 /* Macintosh 8-bit encodings */
 
