@@ -542,6 +542,78 @@ DEFALIAS(     "IBM-1131",               /* AIX */
 
 /* EBCDIC encodings */
 
+DEFENCODING(( "IBM1140",                /* IANA, glibc */
+              "IBM1140-1997",           /* IANA */
+              "IBM-1140",               /* IANA */
+              "IBM_1140",               /* IANA */
+            ),
+            ibm1140,
+            { ibm1140_mbtowc, NULL },     { ibm1140_wctomb, NULL })
+
+DEFENCODING(( "IBM1141",                /* IANA, glibc */
+              "IBM1141-1997",           /* IANA */
+              "IBM-1141",               /* IANA */
+              "IBM_1141",               /* IANA */
+            ),
+            ibm1141,
+            { ibm1141_mbtowc, NULL },     { ibm1141_wctomb, NULL })
+
+DEFENCODING(( "IBM1142",                /* IANA, glibc */
+              "IBM1142-1997",           /* IANA */
+              "IBM-1142",               /* IANA */
+              "IBM_1142",               /* IANA */
+            ),
+            ibm1142,
+            { ibm1142_mbtowc, NULL },     { ibm1142_wctomb, NULL })
+
+DEFENCODING(( "IBM1143",                /* IANA, glibc */
+              "IBM1143-1997",           /* IANA */
+              "IBM-1143",               /* IANA */
+              "IBM_1143",               /* IANA */
+            ),
+            ibm1143,
+            { ibm1143_mbtowc, NULL },     { ibm1143_wctomb, NULL })
+
+DEFENCODING(( "IBM1144",                /* IANA, glibc */
+              "IBM1144-1997",           /* IANA */
+              "IBM-1144",               /* IANA */
+              "IBM_1144",               /* IANA */
+            ),
+            ibm1144,
+            { ibm1144_mbtowc, NULL },     { ibm1144_wctomb, NULL })
+
+DEFENCODING(( "IBM1145",                /* IANA, glibc */
+              "IBM1145-1997",           /* IANA */
+              "IBM-1145",               /* IANA */
+              "IBM_1145",               /* IANA */
+            ),
+            ibm1145,
+            { ibm1145_mbtowc, NULL },     { ibm1145_wctomb, NULL })
+
+DEFENCODING(( "IBM1146",                /* IANA, glibc */
+              "IBM1146-1997",           /* IANA */
+              "IBM-1146",               /* IANA */
+              "IBM_1146",               /* IANA */
+            ),
+            ibm1146,
+            { ibm1146_mbtowc, NULL },     { ibm1146_wctomb, NULL })
+
+DEFENCODING(( "IBM1147",                /* IANA, glibc */
+              "IBM1147-1997",           /* IANA */
+              "IBM-1147",               /* IANA */
+              "IBM_1147",               /* IANA */
+            ),
+            ibm1147,
+            { ibm1147_mbtowc, NULL },     { ibm1147_wctomb, NULL })
+
+DEFENCODING(( "IBM1148",                /* IANA, glibc */
+              "IBM1148-1997",           /* IANA */
+              "IBM-1148",               /* IANA */
+              "IBM_1148",               /* IANA */
+            ),
+            ibm1148,
+            { ibm1148_mbtowc, NULL },     { ibm1148_wctomb, NULL })
+
 DEFENCODING(( "IBM1149",                /* IANA, glibc */
               "IBM1149-1997",           /* IANA */
               "IBM-1149",               /* IANA */
