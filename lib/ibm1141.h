@@ -99,7 +99,6 @@ ibm1141_mbtowc (conv_t conv, ucs4_t *pwc, const unsigned char *s, int n)
 }
 
 static const unsigned char ibm1141_page00[] = {
-{
   '\x00', '\x01', '\x02', '\x03', '\x37', '\x2d', '\x2e', '\x2f',
   '\x16', '\x05', '\x25', '\x0b', '\x0c', '\x0d', '\x0e', '\x0f',
   '\x10', '\x11', '\x12', '\x13', '\x3c', '\x3d', '\x32', '\x26',
