@@ -19,9 +19,14 @@
  * Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
+#ifndef GAP_H
+#define GAP_H
+
 struct gap
 {
   unsigned short start;
   unsigned short end;
   long           idx;
 };
+
+#endif

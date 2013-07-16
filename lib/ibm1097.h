@@ -175,7 +175,7 @@ static const struct gap ibm1097_idx[] =
 static int
 ibm1097_wctomb (conv_t conv, unsigned char *r, ucs4_t wc, int n)
 {
-   struct gap* p2gap = ibm1097_idx;
+   const struct gap* p2gap = ibm1097_idx;
    for (; p2gap->start < 0xffff ; p2gap++) {
       if (wc >= p2gap->start && wc <= p2gap->end) {
          *r = ibm1097_page00[wc - p2gap->idx];
