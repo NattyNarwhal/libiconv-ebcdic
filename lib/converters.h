@@ -199,6 +199,7 @@ struct conv_struct {
 #include "cp874.h"
 #include "viscii.h"
 #include "tcvn.h"
+#include "ibm1047.h"
 #include "ibm1140.h"
 #include "ibm1141.h"
 #include "ibm1142.h"
