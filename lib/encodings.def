@@ -542,6 +542,14 @@ DEFALIAS(     "IBM-1131",               /* AIX */
 
 /* EBCDIC encodings */
 
+DEFENCODING(( "IBM1025",                /* IANA, glibc */
+              "IBM1025-1997",           /* IANA */
+              "IBM-1025",               /* IANA */
+              "IBM_1025",               /* IANA */
+            ),
+            ibm1025,
+            { ibm1025_mbtowc, NULL },     { ibm1025_wctomb, NULL })
+
 DEFENCODING(( "IBM1047",                /* IANA, glibc */
               "IBM1047-1997",           /* IANA */
               "IBM-1047",               /* IANA */
@@ -549,6 +557,22 @@ DEFENCODING(( "IBM1047",                /* IANA, glibc */
             ),
             ibm1047,
             { ibm1047_mbtowc, NULL },     { ibm1047_wctomb, NULL })
+
+DEFENCODING(( "IBM1097",                /* IANA, glibc */
+              "IBM1097-1997",           /* IANA */
+              "IBM-1097",               /* IANA */
+              "IBM_1097",               /* IANA */
+            ),
+            ibm1097,
+            { ibm1097_mbtowc, NULL },     { ibm1097_wctomb, NULL })
+
+DEFENCODING(( "IBM1112",                /* IANA, glibc */
+              "IBM1112-1997",           /* IANA */
+              "IBM-1112",               /* IANA */
+              "IBM_1112",               /* IANA */
+            ),
+            ibm1112,
+            { ibm1112_mbtowc, NULL },     { ibm1112_wctomb, NULL })
 
 DEFENCODING(( "IBM1140",                /* IANA, glibc */
               "IBM1140-1997",           /* IANA */
