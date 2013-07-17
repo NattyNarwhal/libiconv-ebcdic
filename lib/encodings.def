@@ -574,6 +574,46 @@ DEFENCODING(( "IBM1112",                /* IANA, glibc */
             ibm1112,
             { ibm1112_mbtowc, NULL },     { ibm1112_wctomb, NULL })
 
+DEFENCODING(( "IBM1122",                /* IANA, glibc */
+              "IBM1122-1997",           /* IANA */
+              "IBM-1122",               /* IANA */
+              "IBM_1122",               /* IANA */
+            ),
+            ibm1122,
+            { ibm1122_mbtowc, NULL },     { ibm1122_wctomb, NULL })
+
+DEFENCODING(( "IBM1123",                /* IANA, glibc */
+              "IBM1123-1997",           /* IANA */
+              "IBM-1123",               /* IANA */
+              "IBM_1123",               /* IANA */
+            ),
+            ibm1123,
+            { ibm1123_mbtowc, NULL },     { ibm1123_wctomb, NULL })
+
+DEFENCODING(( "IBM1130",                /* IANA, glibc */
+              "IBM1130-1997",           /* IANA */
+              "IBM-1130",               /* IANA */
+              "IBM_1130",               /* IANA */
+            ),
+            ibm1130,
+            { ibm1130_mbtowc, NULL },     { ibm1130_wctomb, NULL })
+
+DEFENCODING(( "IBM1132",                /* IANA, glibc */
+              "IBM1132-1997",           /* IANA */
+              "IBM-1132",               /* IANA */
+              "IBM_1132",               /* IANA */
+            ),
+            ibm1132,
+            { ibm1132_mbtowc, NULL },     { ibm1132_wctomb, NULL })
+
+DEFENCODING(( "IBM1137",                /* IANA, glibc */
+              "IBM1137-1997",           /* IANA */
+              "IBM-1137",               /* IANA */
+              "IBM_1137",               /* IANA */
+            ),
+            ibm1137,
+            { ibm1137_mbtowc, NULL },     { ibm1137_wctomb, NULL })
+
 DEFENCODING(( "IBM1140",                /* IANA, glibc */
               "IBM1140-1997",           /* IANA */
               "IBM-1140",               /* IANA */
@@ -653,6 +693,94 @@ DEFENCODING(( "IBM1149",                /* IANA, glibc */
             ),
             ibm1149,
             { ibm1149_mbtowc, NULL },     { ibm1149_wctomb, NULL })
+
+DEFENCODING(( "IBM1153",                /* IANA, glibc */
+              "IBM1153-1997",           /* IANA */
+              "IBM-1153",               /* IANA */
+              "IBM_1153",               /* IANA */
+            ),
+            ibm1153,
+            { ibm1153_mbtowc, NULL },     { ibm1153_wctomb, NULL })
+
+DEFENCODING(( "IBM1154",                /* IANA, glibc */
+              "IBM1154-1997",           /* IANA */
+              "IBM-1154",               /* IANA */
+              "IBM_1154",               /* IANA */
+            ),
+            ibm1154,
+            { ibm1154_mbtowc, NULL },     { ibm1154_wctomb, NULL })
+
+DEFENCODING(( "IBM1155",                /* IANA, glibc */
+              "IBM1155-1997",           /* IANA */
+              "IBM-1155",               /* IANA */
+              "IBM_1155",               /* IANA */
+            ),
+            ibm1155,
+            { ibm1155_mbtowc, NULL },     { ibm1155_wctomb, NULL })
+
+DEFENCODING(( "IBM1156",                /* IANA, glibc */
+              "IBM1156-1997",           /* IANA */
+              "IBM-1156",               /* IANA */
+              "IBM_1156",               /* IANA */
+            ),
+            ibm1156,
+            { ibm1156_mbtowc, NULL },     { ibm1156_wctomb, NULL })
+
+DEFENCODING(( "IBM1157",                /* IANA, glibc */
+              "IBM1157-1997",           /* IANA */
+              "IBM-1157",               /* IANA */
+              "IBM_1157",               /* IANA */
+            ),
+            ibm1157,
+            { ibm1157_mbtowc, NULL },     { ibm1157_wctomb, NULL })
+
+DEFENCODING(( "IBM1158",                /* IANA, glibc */
+              "IBM1158-1997",           /* IANA */
+              "IBM-1158",               /* IANA */
+              "IBM_1158",               /* IANA */
+            ),
+            ibm1158,
+            { ibm1158_mbtowc, NULL },     { ibm1158_wctomb, NULL })
+
+DEFENCODING(( "IBM1160",                /* IANA, glibc */
+              "IBM1160-1997",           /* IANA */
+              "IBM-1160",               /* IANA */
+              "IBM_1160",               /* IANA */
+            ),
+            ibm1160,
+            { ibm1160_mbtowc, NULL },     { ibm1160_wctomb, NULL })
+
+DEFENCODING(( "IBM1164",                /* IANA, glibc */
+              "IBM1164-1997",           /* IANA */
+              "IBM-1164",               /* IANA */
+              "IBM_1164",               /* IANA */
+            ),
+            ibm1164,
+            { ibm1164_mbtowc, NULL },     { ibm1164_wctomb, NULL })
+
+DEFENCODING(( "IBM1166",                /* IANA, glibc */
+              "IBM1166-1997",           /* IANA */
+              "IBM-1166",               /* IANA */
+              "IBM_1166",               /* IANA */
+            ),
+            ibm1166,
+            { ibm1166_mbtowc, NULL },     { ibm1166_wctomb, NULL })
+
+DEFENCODING(( "IBM12712",               /* IANA, glibc */
+              "IBM12712-1997",          /* IANA */
+              "IBM-12712",              /* IANA */
+              "IBM_12712",              /* IANA */
+            ),
+            ibm12712,
+            { ibm12712_mbtowc, NULL },    { ibm12712_wctomb, NULL })
+
+DEFENCODING(( "IBM16804",               /* IANA, glibc */
+              "IBM16804-1997",          /* IANA */
+              "IBM-16804",              /* IANA */
+              "IBM_16804",              /* IANA */
+            ),
+            ibm16804,
+            { ibm16804_mbtowc, NULL },    { ibm16804_wctomb, NULL })
 
 /* Macintosh 8-bit encodings */
 
