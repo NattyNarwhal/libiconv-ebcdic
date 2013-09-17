@@ -1,3 +1,40 @@
+2013-09-17  Ulrich Schwab  <ulrich.schwab@flam.de>
+
+	* lib/ibm1025.h: New file for EBCDIC encoding.
+	* lib/ibm1047.h: Likewise.
+	* lib/ibm1097.h: Likewise.
+	* lib/ibm1112.h: Likewise.
+	* lib/ibm1122.h: Likewise.
+	* lib/ibm1123.h: Likewise.
+	* lib/ibm1130.h: Likewise.
+	* lib/ibm1132.h: Likewise.
+	* lib/ibm1137.h: Likewise.
+	* lib/ibm1140.h: Likewise.
+	* lib/ibm1141.h: Likewise.
+	* lib/ibm1142.h: Likewise.
+	* lib/ibm1043.h: Likewise.
+	* lib/ibm1044.h: Likewise.
+	* lib/ibm1045.h: Likewise.
+	* lib/ibm1046.h: Likewise.
+	* lib/ibm1047.h: Likewise.
+	* lib/ibm1048.h: Likewise.
+	* lib/ibm1049.h: Likewise.
+	* lib/ibm1053.h: Likewise.
+	* lib/ibm1054.h: Likewise.
+	* lib/ibm1055.h: Likewise.
+	* lib/ibm1056.h: Likewise.
+	* lib/ibm1057.h: Likewise.
+	* lib/ibm1058.h: Likewise.
+	* lib/ibm1060.h: Likewise.
+	* lib/ibm1064.h: Likewise.
+	* lib/ibm1066.h: Likewise.
+	* lib/ibm12712.h: Likewise.
+	* lib/ibm16804.h: Likewise.
+	* lib/converters.h: Include them.
+	* lib/encodings.def: Add them.
+	* README, man/iconv_open.3: Add the new EBCDIC encodings.
+	* NEWS, NOTES: Mention the new EBCDIC encodings.
+
 2021-09-19  Bruno Haible  <bruno@clisp.org>
 
 	tests: Avoid check-subst failures in QEMU user-mode environments.
