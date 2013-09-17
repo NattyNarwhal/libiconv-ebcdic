@@ -328,7 +328,8 @@ A: No, they are not in use any more. Supporting ISO-646 variants is pointless
    since ISO-8859-* have been adopted.
 
 Q: Support EBCDIC ?
-A: No!
+A: Yes! Implemented by limes datentechnik because support for the native
+   character set of IBM z/OS systems was needed for interoperablility.
 
 Q: How do I add a new character set?
 A: 1. Explain the "why" in this file, above.

@@ -1,3 +1,6 @@
+New in limes branch:
+* Add support for EBCDIC encoding, needed for interoperability with IBM z/OS.
+
 New in 1.16:
 * The preloadable library has been removed.
 
