@@ -336,6 +336,7 @@ SOURCE_FILES = \
       tds565.h \
       atarist.h \
       riscos1.h \
+      gap.h \
       ibm1025.h \
       ibm1047.h \
       ibm1097.h \
