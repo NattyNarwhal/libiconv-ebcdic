@@ -336,6 +336,36 @@ SOURCE_FILES = \
       tds565.h \
       atarist.h \
       riscos1.h \
+      ibm1025.h \
+      ibm1047.h \
+      ibm1097.h \
+      ibm1112.h \
+      ibm1122.h \
+      ibm1123.h \
+      ibm1130.h \
+      ibm1132.h \
+      ibm1137.h \
+      ibm1140.h \
+      ibm1141.h \
+      ibm1142.h \
+      ibm1143.h \
+      ibm1144.h \
+      ibm1145.h \
+      ibm1146.h \
+      ibm1147.h \
+      ibm1148.h \
+      ibm1149.h \
+      ibm1153.h \
+      ibm1154.h \
+      ibm1155.h \
+      ibm1156.h \
+      ibm1157.h \
+      ibm1158.h \
+      ibm1160.h \
+      ibm1164.h \
+      ibm1166.h \
+      ibm12712.h \
+      ibm16804.h \
     flushwc.h \
     cjk_variants.h \
     loops.h \
